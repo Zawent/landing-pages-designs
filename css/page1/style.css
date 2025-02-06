@@ -1,0 +1,57 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--color-1);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 64px;
+}
+
+main h1 {
+    font-family: "Avenir-Heavy";
+    font-size: 64px;
+    width: 610px;
+}
+
+main p {
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    width: 607px;
+    text-align: center;
+    color: hsla(0, 0%, 15%, 0.8);
+}
+
+main a{
+    display: flex;
+    width: 158px;
+    height: 54px;
+    text-decoration: none;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    border-radius: 16px;
+    color: var(--color-1);
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 16px;
+    margin-top: 40px;
+}
+
+section img {
+    width: 316px;
+}
