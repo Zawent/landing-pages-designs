@@ -1,0 +1,53 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--color-1);
+}
+
+main {
+    margin: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+}
+
+h1 {
+    font-family: "Avenir-Heavy";
+    font-size: 88px;
+    width: 531px;
+    line-height: 104px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: left;
+}
+
+article {
+    background-color: white;
+    padding: 10px;
+}
+
+h2 {
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: hsla(0, 0%, 15%, 0.550);
+}
+
+p {
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: hsla(0, 0%, 15%, 0.800);
+    padding-bottom: 24px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
