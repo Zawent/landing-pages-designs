@@ -1,0 +1,81 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--color-1);
+}
+
+main {
+    display: flex;
+    gap: 112px;
+    margin-top: 67px;
+}
+
+main img{
+    width: 716px;
+    height: 932px;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    padding: 20px 52px 80px 0px;
+}
+
+section article {
+    width: 500px;
+}
+
+.art__top {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.art__top h1{
+    font-family: "Avenir-Heavy";
+    font-size: 64px;
+    line-height: 70px;
+    width: 500px;
+    height: 153px;
+}
+
+.art__top p {
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: hsla(0, 0%, 15%, 0.800);
+}
+
+.art__top a{
+    font-family: "Avenir-Roman";
+    width: 158px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: black;
+    color: white;
+    border-radius: 16px;
+}
+
+.art__bot {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.art__bot div h3{
+    font-family: "Avenir-Heavy";
+    color: hsla(0, 0%, 15%, 0.550);
+    font-size: 32px;
+}
+
+.art__bot div p{
+    font-family: "Avenir-Roman";
+    color: hsla(0, 0%, 15%, 0.800);
+    font-size: 24px;
+}
