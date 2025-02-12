@@ -1,0 +1,184 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 64px;
+}
+
+section {
+    position: relative;
+    display: flex;
+    gap: 444px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 434px;
+    gap: 229px;
+    padding-top: 39px;
+    position: relative;
+}
+
+.left div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.left div h3{
+    color: hsla(0, 0%, 15%, 0.450);
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.left div p{
+    color: hsla(0, 0%, 15%, 0.800);
+    font-size: 24px;
+}
+
+.left img:nth-child(2) {
+    width: 412px;
+}
+
+.explosion {
+    width: 179px;
+    position: absolute;
+    background: none;
+    top: 170px;
+    left: 30px;
+}
+
+.mid {
+    position: absolute;
+    top: 150px;
+    left: 420px;
+    background-image: url(../../storage/img/page13/Gradient_bg.svg);
+    backdrop-filter: blur(30px);
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%);
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%);
+    height: 711px;
+    width: 446px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    height: 692px;
+    background: none;
+    align-items: center;
+    padding: 49px 0px;
+}
+
+.spans {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 324px;
+}
+
+.spans h1 {
+    font-size: 112px;
+    font-weight: 100;
+}
+
+.spans h1:nth-child(1) {
+    font-size: 112px;
+    font-weight: 100;
+    margin-top: -30px;
+}
+
+.spans h1:nth-child(2) {
+    font-size: 112px;
+    font-weight: 100;
+    margin-top: -30px;
+}
+
+.spans h1:nth-child(3) {
+    font-size: 112px;
+    font-weight: 100;
+    margin-top: -18px;
+}
+
+.middle p {
+    width: 306px;
+    align-items: center;
+    font-size: 24px;
+    color: hsla(0, 0%, 15%, 0.800);
+    text-align: center;
+}
+
+.middle a {
+    width: 182px;
+    height: 66px;
+    display: flex;
+    font-family: "Poppins-Regular";
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    background: #252525;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 36px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 434px;
+    position: relative;
+    align-items: end;
+    gap: 220px;
+}
+
+.right img:nth-child(1) {
+    width: 412px;
+}
+
+.right div {
+    width: 434px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.right div h3 {
+    font-weight: bold;
+    font-size: 24px;
+    color: hsla(0, 0%, 15%, 0.450);
+}
+
+.right div p {
+    font-weight: bold;
+    font-size: 24px;
+    color: hsla(0, 0%, 15%, 0.800);
+    font-weight: 100;
+}
+
+.party {
+    width: 174px;
+    position: absolute;
+    bottom: 129px;
+    right: 76px;
+}
+
+.star-left {
+    position: absolute;   
+    left: 250px;
+    top: 170px;
+}
+
+.star-right {
+    position: absolute;   
+    right: 260px;
+    bottom: 170px;
+}
