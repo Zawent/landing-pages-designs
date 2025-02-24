@@ -1,0 +1,18 @@
+:root{
+    --color-1: #FFFFFF
+}
+
+@font-face {
+    font-family: "Playfair-Bold";
+    src: url(../../storage/font/Playfair_Display/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url(../../storage/font/Work_Sans/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../../storage/font/Work_Sans/WorkSans-Medium.ttf);
+}

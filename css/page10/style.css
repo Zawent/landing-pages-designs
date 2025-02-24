@@ -1,0 +1,86 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background: #2F2F2F;
+    padding: 67px;
+    padding-bottom: 0px;
+}
+
+section {
+    display: flex;
+    gap: 53px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 450px;
+    margin: 102px 0px 110px 68px;
+}
+
+.spans{
+    width: 370px;
+}
+
+.red {
+    color: #FEC3C7;
+    font-family: "Poppins-Bold";
+    font-size: 72px;
+}
+
+.blue {
+    font-family: "Poppins-Bold";
+    color: #9AD7F3;
+    font-size: 72px;
+}
+
+.green {
+    font-family: "Poppins-Bold";
+    color: #6BDFDA;
+    font-size: 72px;
+}
+
+.text p:nth-child(2) {
+    color: white;
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    width: 450px;
+    height: 213px;
+}
+
+.text a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 66px;
+    color: #232323;
+    background: white;
+    border-radius: 36px;
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+}
+
+.imgs {
+    height: 792px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto; 
+    column-gap: 18px;
+    row-gap: 8px; 
+}
+
+.imgs img {
+    height: 192px;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: top;
+}

@@ -1,0 +1,89 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #9C2004;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+}
+
+section {
+    display: flex;
+    gap: 159px
+}
+
+.art__left {
+    position: relative;
+    width: 656px;
+}
+
+.art__left img:nth-child(1) {
+    position: absolute;
+    width: 656px;
+    top: 20px;
+    background: none;
+}
+
+.art__left img:nth-child(2) {
+    position: absolute;
+    width: 224px;
+    background: none;
+}
+
+.art__left img:nth-child(3) {
+    position: absolute;
+    width: 224px;
+    top: 580px;
+    left: 420px;
+    background: none;
+}
+
+.art__left img:nth-child(4) {
+    position: absolute;
+    width: 618px;
+    top: 70px;
+    background: none;
+}
+
+.art__right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 487px;
+
+}
+
+.art__right h1 {
+    font-family: "WorkSans-Bold";
+    font-size: 88px;
+    margin-top: 70px;
+    color: white;
+}
+
+.art__right p {
+    font-family: "WorkSans-Light";
+    font-size: 24px;
+    color: white;
+}
+
+.art__right a {
+    font-family: "WorkSans-Medium";
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    width: 231px;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E5B94B;
+    border-radius: 36px;
+
+}

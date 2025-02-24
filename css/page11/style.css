@@ -1,0 +1,100 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.sect__top {
+    display: flex;
+    gap: 126px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 637px;
+    gap: 32px;
+    padding-top: 80px;
+}
+
+.text h1 {
+    font-family: "Avenir-Heavy";
+    font-size: 72px;
+    color: #252525;
+}
+
+
+.text p {
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    width: 586px;
+    color: hsla(0, 0%, 15%, 0.800);
+}
+
+.text a {
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    width: 182px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #252525;
+    text-decoration: none;
+    color: white;
+    border-radius: 36px;
+}
+
+.imgs {
+    position: relative;
+    box-sizing: content-box;
+    padding-top: 28px;
+    width: 548px;
+    height: 519px;
+}
+
+.imgs img:nth-child(1){
+    position: absolute;
+    width: 322px;
+    height: 384px;
+    top: 40px;
+}
+
+.imgs img:nth-child(2){
+    position: absolute;
+    z-index: 1;
+    background: none;
+    right: 10px;
+    bottom: 0px;
+    width: 322px;
+}
+
+.sect__bot {
+    display: flex;
+    width: 1312px;
+    padding: 64px;
+    background: #252525;
+    border-radius: 40px;
+}
+
+.sect__bot h3 {
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: white;
+    padding-bottom: 24px;
+}
+
+.sect__bot p {
+    font-family: "Avenir-Book";
+    font-size: 24px;
+    color: white;
+}

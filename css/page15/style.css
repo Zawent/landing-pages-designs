@@ -1,0 +1,145 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--color-1);
+}
+
+main {
+    padding: 64px
+}
+
+section {
+    display: flex;
+    gap: 77px;
+    position: relative;
+}
+
+section article:nth-child(1) {
+    width: 374px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.upp {
+    width: 356px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 24px;
+}
+
+.upp h1 {
+    font-size: 64px;
+    font-weight: 100;
+}
+
+.upp p {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.upp a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 177px;
+    height: 66px;
+    text-decoration: none;
+    background: #457D61;
+    color: white;
+    border-radius: 36px;
+}
+
+.downn {
+    width: 374px;
+    height: 364px;
+    position: relative;
+}
+
+.downn img:nth-child(1) {
+    position: absolute;
+    bottom: 0px;
+    background: none;
+}
+
+.downn img:nth-child(2) {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: none;
+}
+
+section article:nth-child(2) {
+    width: 374px;
+    display: flex;
+}
+
+section article:nth-child(2) img{
+    width: 374px;
+    display: flex;
+    padding-top: 90px;
+    padding-left: 18px;
+}
+
+section article:nth-child(3) {
+    width: 392px;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.imgTop {
+    position: relative;
+    width: 392px;
+    height: 421px;
+    display: flex;
+}
+
+.imgTop img:nth-child(1) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.imgTop img:nth-child(2) {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.textBot {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 280px;
+    margin: 0px 68px 0px 44px;
+}
+
+.textBot p {
+    font-size: 24px;
+}
+
+.textBot h2 {
+    font-size: 64px;
+    font-weight: 100;
+    line-height: 87px;
+}
+
+.starup {
+    position: absolute;
+    background: none;
+    top: 90px;
+    left: 340px;
+}
+
+.stardown {
+    position: absolute;
+    background: none;
+    top: 350px;
+    right: 290px;
+}

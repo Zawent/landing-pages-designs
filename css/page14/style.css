@@ -1,0 +1,148 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 64px;
+}
+
+section {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+    padding-top: 234px;
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 568px;
+}
+
+.upper h1 {
+    font-family: "Poppins-Bold";
+    font-size: 64px;
+    height: 168px;
+    line-height: 80px;
+    color: #2C1001;
+}
+
+.upper p {
+    font-family: "Poppins-Light";
+    font-size: 24px;
+    color: #2C1001;
+}
+
+.upper a { 
+    width: 265px;
+    height: 78px;
+    background: #FFDE81 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #2C1001;
+    border-radius: 36px;
+    font-size: 20px;
+}
+
+.down {
+    display: flex;
+    padding: 24px 96px;
+    background: #49342F;
+    color: white; 
+    gap: 64px;
+    border-radius: 24px;
+}
+
+.down div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 120px;
+    width: 110px;
+
+}
+
+.down div h3 {
+    font-family: "Poppins-SemiBold";
+    font-size: 24px;
+}
+
+.down div h5 {
+    margin-top: -13px;
+}
+
+.down div p {
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+}
+
+.imgs {
+    position: relative;
+    width: 791px;
+}
+
+.imgs img:nth-child(1) {
+    position: absolute;
+    z-index: 1;
+    top: 110px;
+    right: -20px;
+}
+
+.imgs img:nth-child(2) {
+    position: absolute;
+    z-index: 1;
+    top: 280px;
+    right: 20px;
+}
+
+.imgs img:nth-child(3) {
+    position: absolute;
+    z-index: 2;
+    top: 110px;
+}
+
+.imgs img:nth-child(4) {
+    position: absolute;
+    z-index: 2;
+    top: 310px;
+    left: 110px;
+}
+
+.imgs img:nth-child(5) {
+    position: absolute;
+    z-index: 2;
+    top: 120px;
+    left: 320px;
+}
+
+.imgs img:nth-child(6) {
+    position: absolute;
+    z-index: 4;
+    bottom: -40px;
+    left: -40px;
+}
+
+.imgs img:nth-child(7) {
+    position: absolute;
+    z-index: 4;
+    top: 20px;
+    left: -80px;
+}
+
+.imgs img:nth-child(8) {
+    position: absolute;
+    z-index: 4;
+    right: 20px;
+    bottom: 0px;
+}
